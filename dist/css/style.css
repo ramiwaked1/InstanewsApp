@@ -1,0 +1,316 @@
+/*Mobile Styles*/
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 3.5em;
+    font-family: 'Open Sans Light', arial;
+    background-color: black; }
+  div#logo_area {
+    margin-left: 370px;
+    margin-top: 100px;
+    background-image: url("file:///Users/ramiwaked/Desktop/project-02/assets/images/instanews-mobile-initial.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain, cover; }
+  div.image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+  #logo_image {
+    width: 400px;
+    height: 400px;
+    margin-left: -70px;
+    margin-bottom: 100px; }
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Opens Sans Light', arial;
+    max-width: 100%;
+    width: 100%; }
+  p {
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: black;
+    opacity: 0.8;
+    font-family: 'Open Sans Light', arial;
+    font-size: 268%;
+    padding: 28px;
+    margin-top: 526px;
+    text-align: center; }
+  p#menu {
+    background-color: black;
+    opacity: 1;
+    margin-top: -80px;
+    text-align: center;
+    padding: 30px 30px 0; }
+  footer {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c2c2c2; }
+  .select select {
+    outline: none;
+    display: block;
+    margin-left: 425px;
+    margin-bottom: 100px;
+    margin-top: 36px;
+    -webkit-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    color: #555;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 150%; }
+  .wrapper {
+    position: relative;
+    float: left;
+    left: 0;
+    margin-bottom: 10px;
+    background-color: black; }
+  .image {
+    display: block;
+    position: relative;
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black url("http://i.stack.imgur.com/FhHRx.gif") 50% 50% no-repeat; }
+  body.loading {
+    overflow: hidden; }
+  body.loading .modal {
+    display: block; } }
+
+/*Tablet Styles*/
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
+  div#logo_area {
+    margin-left: 370px;
+    margin-top: 100px;
+    background-image: url("file:///Users/ramiwaked/Desktop/project-02/assets/images/instanews-mobile-initial.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain, cover; }
+  #logo_image {
+    width: 150px;
+    height: 150px;
+    margin-left: -175px;
+    margin-bottom: -75px; }
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  p {
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: black;
+    font-family: 'Open Sans Light', arial;
+    font-size: 16px;
+    padding: 28px;
+    line-height: 1.5em;
+    margin-top: 300px;
+    height: 100px; }
+  p#menu {
+    margin-top: -120px;
+    text-align: center;
+    padding: 20px 20px 5px 35px; }
+  .select select {
+    outline: none;
+    display: block;
+    margin-left: 459px;
+    margin-bottom: 100px;
+    -webkit-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    color: #555;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 150%; }
+  .image {
+    display: block;
+    position: relative;
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 33.3%; }
+  div.image {
+    width: 33.3%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: black; }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black url("http://i.stack.imgur.com/FhHRx.gif") 50% 50% no-repeat; }
+  body.loading {
+    overflow: hidden; }
+  body.loading .modal {
+    display: block; } }
+
+/*Desktop Styles*/
+@media only screen and (min-width: 1240px) {
+  #logo_image {
+    margin-left: -340px; }
+  p#menu {
+    text-align: left;
+    padding-left: 255px;
+    height: 50px; }
+  .select select {
+    margin-left: 275px; }
+  p {
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: black;
+    font-family: 'Open Sans Light', arial;
+    font-size: 16px;
+    height: 150px;
+    padding: 15px 28px;
+    margin-top: 300px;
+    margin-left: 0;
+    margin-bottom: -1px;
+    font-size: 130%; }
+  .image {
+    display: block;
+    position: relative;
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 25%; }
+  div.image {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+  footer {
+    text-align: left;
+    margin-left: 20px; }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black url("http://i.stack.imgur.com/FhHRx.gif") 50% 50% no-repeat; }
+  body.loading {
+    overflow: hidden; }
+  body.loading .modal {
+    display: block; } }

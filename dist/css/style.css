@@ -193,7 +193,7 @@ input, select {
 /*Tablet Styles*/
 @media only screen and (min-width: 768px) and (min-width: 1024px) {
   div#logo_area {
-    margin-left: 370px;
+    margin-left: 45%;
     margin-top: 100px;
     background-image: url("file:///Users/ramiwaked/Desktop/project-02/assets/images/instanews-mobile-initial.png");
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ input, select {
 /*Desktop Styles*/
 @media only screen and (min-width: 1240px) {
   #logo_image {
-    margin-left: -340px; }
+    margin-left: -70%; }
   p#menu {
     text-align: left;
     padding-left: 255px;

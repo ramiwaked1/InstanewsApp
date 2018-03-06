@@ -1,6 +1,6 @@
 # Project 2: Instanews App
-![alt text](https://github.com/ramiwaked1/InstanewsApp/master/assets/images/instanews-desktop-initial.png)
-![alt text](https://github.com/ramiwaked1/InstanewsApp/master/assets/images/instanews-desktop-photos.png)
+![alt text](https://github.com/ramiwaked1/InstanewsApp/blob/master/assets/images/instanews-desktop-initial.png)
+![alt text](https://github.com/ramiwaked1/InstanewsApp/blob/master/assets/images/instanews-desktop-photos.png)
 
 
 My project was to create a News page using The New York Times API to get the Top Stories live on a page using Jquery, HTML, CSS, Sass and Gulp.
